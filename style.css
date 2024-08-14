@@ -1,0 +1,89 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container{
+  background-color: #ffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.task-input{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#task-name{
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+#add-task{
+  padding: 10px 15px;
+  background-color: #b3ce1e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#task-list{
+  list-style: none;
+  padding: 0;
+}
+
+.task-item{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.task-name{
+  font-weight: bold;
+}
+
+.timer{
+  margin-right: 10px;
+}
+
+.task-action button{
+  margin-left: 5px;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.start-btn{
+  background-color: #007bff;
+  color: white;
+}
+
+.stop-btn{
+  background-color: #dc3545;
+  color: white;
+}
+
+.delte-btn{
+  background-color: #6c757d;
+}
